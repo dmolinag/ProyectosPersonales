@@ -1,0 +1,12 @@
+# Writing all output to: E:\ESP8266\Progammers\ESP8266Programmer2.1\Esp8266pogrammer2.1.log
+set pad_wire_necking on
+bus diagonal
+fanout 20
+route 100
+clean 10
+route 100 16
+clean 10
+filter 5
+recorner diagonal
+status_file
+

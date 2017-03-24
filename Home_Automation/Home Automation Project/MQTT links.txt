@@ -1,0 +1,17 @@
+https://www.google.com.co/search?espv=2&biw=1366&bih=589&q=mqtt+mosquitto+raspberry+broker+and+esp8266-01+client&oq=mqtt+mosquitto+raspberry+broker+and+esp8266-01+client&gs_l=serp.3...894.3335.0.3605.14.13.1.0.0.0.314.1658.0j7j1j1.9.0....0...1c.1.64.serp..5.8.1294...30i10k1.S8JpY_1MMX0
+
+http://www.switchdoc.com/2016/02/tutorial-installing-and-testing-mosquitto-mqtt-on-raspberry-pi/
+
+http://vinceelizaga.com/blog/index.html
+
+https://www.google.com.co/search?espv=2&biw=1366&bih=589&q=mqtt+tutorial&sa=X&ved=0ahUKEwj76ZSMwsTPAhWCRyYKHRYQBtQQ1QIIfygG
+
+https://www.youtube.com/channel/UCOnMlI1Si4i0O2Wkz-XReww/channels
+
+https://github.com/ItKindaWorks/ESP8266/blob/master/Relay%20Control/Breadboard.jpg
+
+https://www.youtube.com/watch?v=PgsH43Tpqjc
+
+https://learn.adafruit.com/diy-esp8266-home-security-with-lua-and-mqtt/configuring-mqtt-on-the-raspberry-pi
+
+http://www.w3schools.com/html/html_colors.asp
