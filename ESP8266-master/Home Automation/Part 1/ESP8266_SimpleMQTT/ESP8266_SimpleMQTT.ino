@@ -11,12 +11,17 @@
 
 
 //EDIT THESE LINES TO MATCH YOUR SETUP
-#define MQTT_SERVER "YOUR.MQTT.SERVER.IP"
-const char* ssid = "YOUR_SSID";
-const char* password = "YOUR_PASSWORD";
+#define MQTT_SERVER "192.168.3.190"
+const char* ssid = "VE_RD_L2";
+const char* password = "X62489003197A3128MNQ";
 
 //LED on ESP8266 GPIO2
 const int lightPin = 2;
+
+void callback(char* topic, byte* payload, unsigned int length);
+void reconnect();
+String macToStr(const uint8_t* mac);
+unsigned long currentMillis = 0;
 
 char* lightTopic = "/test/light1";
 

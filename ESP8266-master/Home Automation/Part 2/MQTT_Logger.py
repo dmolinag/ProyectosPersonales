@@ -90,7 +90,7 @@ mqttc = mqtt.Client()
 mqttc.on_message = on_message
 
 #connect to the broker (most likely it is localhost if running MQTT lotcally)
-mqttc.connect("127.0.0.1", 1883, 60)
+mqttc.connect("192.168.3.190", 1883, 60)
 
 #subscribe to our light confirmation topic
 mqttc.subscribe("/house/light1confirm", 0)

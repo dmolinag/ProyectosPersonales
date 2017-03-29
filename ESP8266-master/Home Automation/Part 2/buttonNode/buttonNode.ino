@@ -12,9 +12,9 @@
 
 
 //EDIT THESE LINES TO MATCH YOUR SETUP
-#define MQTT_SERVER "YOUR.MQTT.SERVER.IP"
-const char* ssid = "YOUR_SSID";
-const char* password = "YOUR_PASSWORD";
+#define MQTT_SERVER "192.168.3.190"
+const char* ssid = "VE_RD_L2";
+const char* password = "X62489003197A3128MNQ";
 
 //LED on ESP8266 GPIO2
 const int buttonPin = 2;
@@ -86,12 +86,14 @@ void checkButton(){
 		if(isOn == false){
 			client.publish(lightTopic, "1");
 			isOn = true;
+      Serial.print(isOn);
 		}
 
 		//else (on true), the light is on so tell it to turn off and set the internal var to false
 		else{
 			client.publish(lightTopic, "0");
 			isOn = false;
+     Serial.print(isOn);
 		}
 	}
 }

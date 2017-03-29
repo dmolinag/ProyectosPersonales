@@ -1,0 +1,137 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net #00000 
+   (rule
+   )
+   (wire (path BOT 25400  0 54000 0 -177800 -1143000 -177800
+     -1143000 0)
+    (connect (terminal pin VCC-0) (terminal pin ESP8266-4))
+   )
+   (wire (path TOP 25400  -1143000 0 -1143000 -177800 -1543000 -177800
+     -1543000 0)
+    (connect (terminal pin ESP8266-4) (terminal pin ESP8266-0))
+   )
+   )
+   (Net #00001 
+   (rule
+   )
+   (wire (path BOT 25400  -2159000 889000 -2159000 -177800 -1343000 -177800
+     -1343000 0)
+    (connect (terminal pin RESET-0) (terminal pin ESP8266-2))
+   )
+   )
+   (Net #00002 
+   (rule
+   )
+   (wire (path BOT 25400  -943000 2032000 -943000 817111 -711200 817111
+     -711200 0 -943000 0)
+    (connect (terminal pin FTDI232-1) (terminal pin ESP8266-6))
+   )
+   )
+   (Net #00003 
+   (rule
+   )
+   (wire (path BOT 25400  -1143000 2032000 -1143000 355600 -1543000 355600
+     -1543000 200000)
+    (connect (terminal pin FTDI232-2) (terminal pin ESP8266-1))
+   )
+   )
+   (Net #00004 
+   (rule
+   )
+   (wire (path TOP 25400  -1143000 -1524000 -1143000 -1244600 -711200 -1244600
+     -711200 -711200 -1778000 -711200 -1778000 355600 -1343000 355600
+     -1343000 200000)
+    (connect (terminal pin PROG-1) (terminal pin ESP8266-3))
+   )
+   )
+   (Net #00005 
+   (rule
+   )
+   (wire (path TOP 25400  -1143000 -1016000 -1955800 -1016000 -1955800 533400
+     -1143000 533400 -1143000 200000)
+    (connect (terminal pin GPIO2-0) (terminal pin ESP8266-5))
+   )
+   )
+   (Net #00006 
+   (rule
+   )
+   (wire (path TOP 25400  -2159000 1143000 -943000 1143000 -943000 200000)
+    (connect (terminal pin RESET-1) (terminal pin ESP8266-7))
+   )
+   (wire (path BOT 25400  0 254000 0 533400 355600 533400
+     355600 -1016000 -889000 -1016000)
+    (connect (terminal pin VCC-1) (terminal pin GPIO2-1))
+   )
+   (wire (path BOT 25400  -1743000 2032000 -1743000 1143000 -2159000 1143000)
+    (connect (terminal pin FTDI232-5) (terminal pin RESET-1))
+   )
+   (wire (path TOP 25400  0 254000 0 533400 -415686 533400
+     -415686 200000 -943000 200000)
+    (connect (terminal pin VCC-1) (terminal pin ESP8266-7))
+   )
+   (wire (path BOT 25400  -889000 -1524000 -889000 -1016000)
+    (connect (terminal pin PROG-0) (terminal pin GPIO2-1))
+   )
+   )
+  )
+ )

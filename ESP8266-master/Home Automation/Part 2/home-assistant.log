@@ -1,0 +1,4 @@
+17-03-28 22:23:20 WARNING (MainThread) [homeassistant.setup] Setup of sensor is taking over 10 seconds.
+17-03-28 22:31:56 WARNING (MainThread) [homeassistant.setup] Setup of tts is taking over 10 seconds.
+17-03-28 22:33:27 WARNING (MainThread) [homeassistant.components.sensor] Setup of platform yr is taking over 10 seconds.
+17-03-28 22:35:29 WARNING (MainThread) [homeassistant.setup] Setup of recorder is taking over 10 seconds.
