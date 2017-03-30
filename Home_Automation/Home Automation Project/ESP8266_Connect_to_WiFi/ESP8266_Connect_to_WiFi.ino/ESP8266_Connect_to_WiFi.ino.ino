@@ -5,6 +5,7 @@
 const char* ssid = "VE_RD_L2";
 const char* password = "X62489003197A3128MNQ";
 
+
 void setup() {
   // put your setup code here, to run once:
   // Start Serial

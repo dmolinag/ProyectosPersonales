@@ -6,9 +6,9 @@ homeassistant:
   # longitude: 
 
   # C for Celcius, F for Fahrenheit
-  temperature_unit: F
+  temperature_unit: C
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-  time_zone: EST
+  time_zone: America/Bogota
 
 # Show links to resources in log and frontend
 # introduction:
@@ -38,7 +38,7 @@ http:
   api_password: yourPasswordHere
 
 mqtt:
-  broker: 127.0.0.1
+  broker: 192.168.3.190
   port: 1883
   client_id: home-assistant-1
   keepalive: 60
