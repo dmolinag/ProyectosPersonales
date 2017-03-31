@@ -1,0 +1,8 @@
+name = input("Hello, what's your name? ")
+print("It's nice to meet you, " + name)
+city = input("What city do you live in? ")
+print("I have heard of " + city + ". What do you think of " + city + " " + name + "?")
+answer = input()
+print("I agree with you " + answer)
+favSpot = input("Do you have a favorite spot? ")
+print("Never been, but I would love to go sometime to " + favSpot)

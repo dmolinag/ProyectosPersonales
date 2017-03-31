@@ -1,0 +1,15 @@
+yarl/__init__.pyi,sha256=hj22wpu9yuVfi0-W8T2uxrwOY36LV00U4ToMyv2MM9o,2120
+yarl/quoting.py,sha256=pNKfbyd6b9RUzDHeOzn4QIYUPUDzib5lNpOUEJjfxBY,4850
+yarl/__init__.py,sha256=9FGMAZaZG5EqCzM_01FJTGLj1DXxkj6yZ-H6TIOu5oM,27004
+yarl/_quoting.cpython-34m.so,sha256=YR3UpuZLQqKCTCeHggj71UeVr_qh3rT20QuqIkYkkQE,230076
+yarl/_quoting.pyx,sha256=XHhW2vjxyBNNWU7ja0MYoaHqMq1_Dyf7sQOqxSDlXxQ,7925
+yarl/_quoting.c,sha256=mBBDbnA9Ou1YxjDU08B4w6vOQaimjUYjILI1SvV9Bqo,269938
+yarl-0.9.8.dist-info/WHEEL,sha256=0Hp1yFendDG_cH0O9L2aqKPCMzkDw6h4DSzs9mEjZAM,104
+yarl-0.9.8.dist-info/top_level.txt,sha256=vf3SJuQh-k7YtvsUrV_OPOrT9Kqn0COlk7IPYyhtGkQ,5
+yarl-0.9.8.dist-info/metadata.json,sha256=YBLbzmoPzwXIZtSM2Q2w8FEkFBukLEKqBbwhtkbVWX8,860
+yarl-0.9.8.dist-info/DESCRIPTION.rst,sha256=s4Rt1_ucnhfpY0SS8sK100KMspes6PpT55P7S0niwM8,6909
+yarl-0.9.8.dist-info/METADATA,sha256=5tcjtIbkqKO1eZihi7_b0u2yEEbYp7Ie9PAz2y9f2ZE,7557
+yarl-0.9.8.dist-info/RECORD,,
+yarl-0.9.8.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+yarl/__pycache__/__init__.cpython-34.pyc,,
+yarl/__pycache__/quoting.cpython-34.pyc,,
