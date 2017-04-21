@@ -11,9 +11,9 @@
 
 
 //EDIT THESE LINES TO MATCH YOUR SETUP
-#define MQTT_SERVER "YOUR.MQTT.SERVER.IP"
-const char* ssid = "YOUR_SSID";
-const char* password = "YOUR_PASSWORD";
+#define MQTT_SERVER "192.168.3.190"
+const char* ssid = "VE_RD_L2";
+const char* password = "X62489003197A3128MNQ";
 
 //input pin for the reed switch used to detect the door state
 const int doorPin = 2;

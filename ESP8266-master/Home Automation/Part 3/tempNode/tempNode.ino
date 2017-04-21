@@ -10,16 +10,17 @@
 #include <ESP8266WiFi.h>
 #include <OneWire.h>
 #include <DallasTemperature.h>
+#include <DHT.h>
 
 //create 1-wire connection on pin 2 and connect it to the dallasTemp library
 OneWire oneWire(2);
-DallasTemperature sensors(&oneWire);
+DHT sensors(&oneWire);
 
 
 //EDIT THESE LINES TO MATCH YOUR SETUP
-#define MQTT_SERVER "YOUR.MQTT.SERVER.IP"
-const char* ssid = "YOUR_SSID";
-const char* password = "YOUR_PASSWORD";
+#define MQTT_SERVER "192.168.3.190"
+const char* ssid = "VE_RD_L2";
+const char* password = "X62489003197A3128MNQ";
 
 
 //topic to publish to for the temperature
@@ -50,7 +51,7 @@ void setup() {
 	sensors.begin();
 
 	//wait a bit before starting the main loop
-    	delay(2000);
+  delay(2000);
 }
 
 

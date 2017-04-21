@@ -41,7 +41,7 @@ void setup() {
 	reconnect();
 
 	//wait a bit before starting the main loop
-    	delay(2000);
+  delay(2000);
 }
 
 
@@ -79,7 +79,6 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
 		Serial.write("d");		//send a unique header - d
 		Serial.write(byteToSend);	//send the current state
-
 	}
 
 	//handle tempTopic updates
@@ -90,7 +89,6 @@ void callback(char* topic, byte* payload, unsigned int length) {
 		Serial.write("t");		//send a unique header - t
 		Serial.write(byteToSend);	//send the current temp
 	}
-
 }
 
 

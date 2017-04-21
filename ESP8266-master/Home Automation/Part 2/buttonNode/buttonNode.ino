@@ -12,7 +12,7 @@
 
 
 //EDIT THESE LINES TO MATCH YOUR SETUP
-#define MQTT_SERVER "192.168.3.190"
+#define MQTT_SERVER "192.168.3.198"
 const char* ssid = "VE_RD_L2";
 const char* password = "X62489003197A3128MNQ";
 
@@ -49,7 +49,7 @@ void setup() {
 	reconnect();
 
 	//wait a bit before starting the main loop
-    	delay(2000);
+   delay(2000);
 }
 
 
