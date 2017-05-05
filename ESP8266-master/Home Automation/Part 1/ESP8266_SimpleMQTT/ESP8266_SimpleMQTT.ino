@@ -11,9 +11,10 @@
 
 
 //EDIT THESE LINES TO MATCH YOUR SETUP
-#define MQTT_SERVER "192.168.3.199"
+#define MQTT_SERVER "192.168.3.198"
 const char* ssid = "VE_RD_L2";
 const char* password = "X62489003197A3128MNQ";
+
 
 //LED on ESP8266 GPIO2
 const int lightPin = 2;
@@ -38,6 +39,7 @@ void setup() {
 	Serial.begin(115200);
 	delay(100);
 
+  //WiFi.hostname("ESP8266-01");
 
 	//start wifi subsystem
 	WiFi.begin(ssid, password);
@@ -84,6 +86,10 @@ void callback(char* topic, byte* payload, unsigned int length) {
 		digitalWrite(lightPin, LOW);
 		client.publish("/test/confirm", "Light Off");
 	}
+
+    //print out some more debug once connected
+    Serial.println(payload[0]);
+ 
 }
 
 
@@ -106,6 +112,7 @@ void reconnect() {
 		Serial.println("WiFi connected");  
 		Serial.println("IP address: ");
 		Serial.println(WiFi.localIP());
+    Serial.println(WiFi.hostname());
 	}
 
 	//make sure we are connected to WIFI before attemping to reconnect to MQTT

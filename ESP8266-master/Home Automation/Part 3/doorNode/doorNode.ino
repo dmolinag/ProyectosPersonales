@@ -11,7 +11,7 @@
 
 
 //EDIT THESE LINES TO MATCH YOUR SETUP
-#define MQTT_SERVER "192.168.3.190"
+#define MQTT_SERVER "192.168.3.198"
 const char* ssid = "VE_RD_L2";
 const char* password = "X62489003197A3128MNQ";
 
@@ -67,7 +67,8 @@ void loop(){
 	}
 
 
-
+    //print out some more debug once connected
+    //Serial.println(doorState);
 
 	//reconnect if connection is lost
 	if (!client.connected() && WiFi.status() == 3) {reconnect();}
@@ -101,6 +102,12 @@ void reconnect() {
 		}
 
 	}
+
+    //print out some more debug once connected
+    Serial.println("");
+    Serial.println("WiFi connected");  
+    Serial.println("IP address: ");
+    Serial.println(WiFi.localIP());
 
 	//make sure we are connected to WIFI before attemping to reconnect to MQTT
 	if(WiFi.status() == WL_CONNECTED){
