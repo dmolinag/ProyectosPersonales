@@ -24,6 +24,7 @@ void reconnect();
 String macToStr(const uint8_t* mac);
 unsigned long currentMillis = 0;
 
+//Topic to publish
 char* lightTopic = "/test/light1";
 
 

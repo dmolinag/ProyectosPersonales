@@ -1,6 +1,6 @@
 
 #include <DHT.h>
-
+#include <Adafruit_Sensor.h>
 
 int DHTPIN = 2;
 
